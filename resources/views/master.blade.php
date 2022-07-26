@@ -17,10 +17,45 @@
     {{View::make('footer')}}          
 </body>
 <style>
-                  .custem-login{
-                   height:500px;
-                   padding-top:100px;
-                  }
+  .custem-login{
+   height:500px;
+   padding-top:100px;
+  }
+  .slider-img{
+    height:400px !important
+  }
+  .custem-product{
+    height:600px; 
+  }
+  .text-style{
+    color: black;
+    background-color: azure;
+  }
+  .trending-image{
+    height:100px;
+  }
+  .trending-item
+  {
+    float:left;
+    width:16%;
+  }
+  .trending-wrapper{
+    margin: 40px;
+  }
+  .detail-img
+  {
+    height: 200px;
+  }
+  .search-box 
+  {
+    width:500px !important;
+  }
+  .cart-list-devider
+  {
+   border: bottom 1px solid #ccc;
+   margin-bottom:20px;
+   padding-bottom:20px;
+  }
 </style>
 <script>
    
